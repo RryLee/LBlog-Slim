@@ -1,0 +1,9 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "slim/views": "*",
+        "twig/twig": "*",
+        "erusev/parsedown": "1.5.3",
+        "suin/php-rss-writer": ">=1.0"
+    }
+}

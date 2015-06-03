@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        {% block title %}
+        {% endblock title %}
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../public/css/normalize.css">
+    <link rel="stylesheet" href="../../public/css/foundation.min.css">
+    {% block css %}
+    {% endblock css %}
+</head>
+<body>
+
+<div class="row">
+    <div class="large-12 columns">
+        <h1>LBlog <small>A very light weight blog.</small></h1>
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-9 columns" role="content">
+        {% block content %}
+        {% endblock content %}
+    </div>
+
+    <aside class="large-3 columns">
+        <h5>Categories</h5>
+        <ul class="side-nav">
+            <li><a href="/home">Home</a></li>
+            <li><a href="/rss" target="_blank">Rss</a></li>
+            <li><a href="#">Join QQGroup</a></li>
+        </ul>
+        <div class="panel">
+            <h5>Featured</h5>
+            <p>Use Slim, a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs. Front-end use Foundation Css ...</p>
+            <a href="/2015/06/my-first-post">Read More →</a>
+        </div>
+    </aside>
+</div>
+
+<footer class="row">
+    <div class="large-12 columns">
+    <hr/>
+        <div class="row">
+            <div class="large-12 columns">
+                <p>© Power By Slim. Author: RryLee <span class="right">Inspire by <a href="http://v.163.com/special/opencourse/buildingdynamicwebsites.html">MIT Course</a></span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

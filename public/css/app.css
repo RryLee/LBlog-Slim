@@ -1,0 +1,13 @@
+#homeContent h1,
+#homeContent h2,
+#homeContent h3,
+#homeContent h4,
+#homeContent h5,
+#homeContent h6{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}
+    LBlog
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="../../public/css/app.css">
+{% endblock css %}
+
+{% block content %}
+
+    <article>
+        {% for post in posts %}
+            <h3><a href="/{{ post.url }}">{{post.title | title}}</a></h3>
+            <h6>{{ post.date|date('Y/m/d') }}</h6>
+            <div class="row">
+                <div class="large-12 columns" id="homeContent">
+                    {{ post.body|slice(0, 150)|raw }}
+                    <p><a href="/{{ post.url }}">Read More</a></p>
+                </div>
+            </div>
+        {% endfor %}
+    </article>
+
+    {% if has_pagination['prev'] %}
+        <span><a href="/home/{{ page - 1 }}"><button class="button tiny">Prev</button></a></span>
+    {% endif %}
+
+    {% if has_pagination['next'] %}
+        <span class="right"><a href="/home/{{ page + 1 }}"><button class="button tiny">Next</button></a></span>
+    {% endif %}
+
+{% endblock content %}
