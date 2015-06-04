@@ -4,9 +4,9 @@
 
 #### 首先，PHP安装redis扩展，百度谷歌的好多解决方案已经老了，这里详细记录下windows的安装过程，因为linux下编译安装拓展是很方便的。
 
-![file](https://dn-phphub.qbox.me/uploads/images/201505/29/1202/PLSwNGzv32.jpg)
-
 看下自己php版本信息里面的这几个环境参数，拓展分好多不同版本编译的，但是寻找自己对应的拓展下载
+
+![file](https://dn-phphub.qbox.me/uploads/images/201505/29/1202/PLSwNGzv32.jpg)
 
 * [igbinary 拓展](http://windows.php.net/downloads/pecl/releases/igbinary/1.2.1/)
 * [redis 拓展](http://windows.php.net/downloads/pecl/snaps/redis/2.2.5/)

@@ -16,8 +16,8 @@
             <h6>{{ post.date|date('Y/m/d') }}</h6>
             <div class="row">
                 <div class="large-12 columns" id="homeContent">
-                    {{ post.body|slice(0, 150)|raw }}
-                    <p><a href="/{{ post.url }}">Read More</a></p>
+                    {{ post.body|slice(0, 120)|raw }}
+                    <span> ......</span>
                 </div>
             </div>
         {% endfor %}
