@@ -1,6 +1,6 @@
 #slim-blog
 
-_安装简单快捷，本地使用查看markdown文档，也可做个人博客_
+_安装简单快捷，本地使用查看markdown文档，也可做个人博客_ , 查看[demo](http://easier.sinaapp.com),sinapp的优雅链接配置不好，请谅解
 
 ####特点
 * PHP框架使用的是 _Slim_ ，很轻便
