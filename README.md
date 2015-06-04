@@ -10,7 +10,7 @@ _安装简单快捷，本地使用查看markdown文档，也可做个人博客_
 * 使用[Rss_write](https://github.com/suin/php-rss-writer)生成rss feed.
 * 没有使用数据库，直接读取.md文件生成post
 
-####安装
+#### [安装](#install)
 
     composer install
     
