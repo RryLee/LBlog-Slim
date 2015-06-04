@@ -12,7 +12,15 @@ _安装简单快捷，本地使用查看markdown文档，也可做个人博客_
 
 #### [安装](#install)
 
+使用composer一步直接安装
+
     composer install
+    
+接着
+
+    php -S localhost:8000/
+    
+请确认本地开启 mol_rewrite,没有开启请自行谷歌配置apache/nginx
     
 在posts文件架下面创建post, 文件名格式为 2015-06-01_name.md
 
