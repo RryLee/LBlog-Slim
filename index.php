@@ -26,7 +26,7 @@ $app->notFound(function() use($app){
 #####################################################
 $app->get('/test', function() use($app){
     $Parsedown = new Parsedown();
-    echo $Parsedown->text('## sdasd');
+    echo $Parsedown->parse('');
 })->name('test');
 
 #主页

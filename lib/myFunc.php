@@ -52,7 +52,6 @@ function get_posts($page = 1, $perpage = 0)
         $arr = explode('</h1>', $content);
         $post->title = str_replace('<h1>','',$arr[0]);
         $post->body = $arr[1];
-
         $tmp[] = $post;
     }
 

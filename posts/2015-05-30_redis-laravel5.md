@@ -43,17 +43,19 @@
 
 redis的一些配置在database.php在中可以看到
 
-        'redis' => [
+```php
+'redis' => [
 
-        'cluster' => false,
+'cluster' => false,
 
-        'default' => [
-            'host'     => '127.0.0.1',
-            'port'     => 6379,
-            'database' => 0,
-        ],
+'default' => [
+    'host'     => '127.0.0.1',
+    'port'     => 6379,
+    'database' => 0,
+],
 
-            ],
+],
+```
 
 这里使用默认的就可以了，接着去测试一下使用情况
 
